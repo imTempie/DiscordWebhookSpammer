@@ -4,7 +4,7 @@
 import pyfiglet
 from dhooks import Webhook
 
-potato = pyfiglet.figlet_formal("POTATO")
+potato = pyfiglet.figlet_format("POTATO")
 print(potato)
 
 MSG = input("Insert Spam Message:  ")
