@@ -7,13 +7,14 @@ from dhooks import Webhook
 potato = pyfiglet.figlet_format("POTATO")
 print(potato)
 
+print("~   Welcome To Potato Spammer   ~")
 MSG = input("Insert Spam Message:  ")
 URL = input("Enter Webhook URL:  ")
 hook = Webhook(URL)
-
-def spam():
-  hook.send(f"{MSG}")
+num = 0  
 
 potatospam = 1
 while potatospam==1:
-  spam()
+  hook.send(f"{MSG}")
+  num = num + 1
+  print(num, " Spamming: " + URL + " With: " + MSG)
