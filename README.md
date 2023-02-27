@@ -1,5 +1,5 @@
 # ✨DiscordWebhookSpammer✨
-A simple webhook spammer for Discord by tempie#1111
+A simple webhook spammer for Discord by tempie#7098
 
 **DO NOT use this for MALICOUS intent. This is meant for EDUCATIONAL PURPOSES ONLY.**
 
